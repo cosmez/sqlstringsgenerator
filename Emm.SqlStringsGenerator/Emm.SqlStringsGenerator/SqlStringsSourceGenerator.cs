@@ -38,7 +38,7 @@ public class SqlStringsSourceGenerator : ISourceGenerator
             sb.AppendLine("{");
             foreach (var query in queries.Queries)
             {
-                sb.AppendLine($"    {queries.Modifiers} {query.Key} = @\"\"\"");
+                sb.AppendLine($"    {queries.Modifiers} {query.Key} = \n\"\"\"");
                 sb.AppendLine(query.Value);
                 sb.AppendLine("\"\"\";");
             }

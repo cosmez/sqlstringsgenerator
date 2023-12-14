@@ -10,7 +10,7 @@
         <RootNamespace>Emm.SqlStringsGenerator</RootNamespace>
 
         <PackageId>Emm.SqlStringGenerator</PackageId>
-        <Version>0.0.1</Version>
+        <Version>0.0.2.1</Version>
 
         <Authors>Cosme Zamudio</Authors>
         <Title>SqlStrings Source Generator</Title>
