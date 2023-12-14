@@ -94,7 +94,8 @@ public class SqlStringsSourceGenerator : ISourceGenerator
                     {
                         if (sb.Length != 0 && queryName != string.Empty)
                         {
-                            sqlClassQuery.Queries.Add(queryName, sb.ToString());
+                            if (!sqlClassQuery.Queries.ContainsKey(queryName))
+                                sqlClassQuery.Queries.Add(queryName, sb.ToString());
                         }
                         queryName = value.Trim();
                         sb.Clear();
@@ -111,7 +112,8 @@ public class SqlStringsSourceGenerator : ISourceGenerator
         //last query in the file
         if (sb.Length != 0 && queryName != string.Empty)
         {
-            sqlClassQuery.Queries.Add(queryName, sb.ToString());
+            if (!sqlClassQuery.Queries.ContainsKey(queryName))
+                sqlClassQuery.Queries.Add(queryName, sb.ToString());
         }
         
         sb.Clear();
