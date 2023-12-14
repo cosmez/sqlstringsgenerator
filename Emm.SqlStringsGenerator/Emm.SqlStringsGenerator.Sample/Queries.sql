@@ -3,3 +3,6 @@
 
 --name: GetCount
 SELECT COUNT(*) FROM Table
+
+--name: GetCount
+SELECT COUNT(*) FROM Table2

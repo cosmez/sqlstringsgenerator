@@ -7,6 +7,9 @@ SELECT COUNT(*) FROM Table
 --name: DeleteQuery
 DELETE FROM TABLE WHERE Id = 1
 
+--name: GetCount
+SELECT COUNT(*) FROM Table2
+
 
 -- this is a regular comment
 -- another regular sql comment
