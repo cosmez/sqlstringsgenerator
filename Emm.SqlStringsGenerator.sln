@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emm.SqlStringsGenerator", "Emm.SqlStringsGenerator\Emm.SqlStringsGenerator\Emm.SqlStringsGenerator.csproj", "{3662BD40-F06A-459B-A2E9-D8068B957AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emm.SqlStringsGenerator.Sample", "Emm.SqlStringsGenerator\Emm.SqlStringsGenerator.Sample\Emm.SqlStringsGenerator.Sample.csproj", "{4C6512A1-071F-4C8B-BB15-D7C39A17533B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emm.SqlStringsGenerator.Tests", "Emm.SqlStringsGenerator\Emm.SqlStringsGenerator.Tests\Emm.SqlStringsGenerator.Tests.csproj", "{2D549CED-94BD-4E29-B1D8-5861EF66B8F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3662BD40-F06A-459B-A2E9-D8068B957AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3662BD40-F06A-459B-A2E9-D8068B957AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3662BD40-F06A-459B-A2E9-D8068B957AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3662BD40-F06A-459B-A2E9-D8068B957AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6512A1-071F-4C8B-BB15-D7C39A17533B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6512A1-071F-4C8B-BB15-D7C39A17533B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6512A1-071F-4C8B-BB15-D7C39A17533B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6512A1-071F-4C8B-BB15-D7C39A17533B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D549CED-94BD-4E29-B1D8-5861EF66B8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D549CED-94BD-4E29-B1D8-5861EF66B8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D549CED-94BD-4E29-B1D8-5861EF66B8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D549CED-94BD-4E29-B1D8-5861EF66B8F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
